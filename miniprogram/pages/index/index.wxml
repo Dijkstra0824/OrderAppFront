@@ -1,0 +1,9 @@
+<view wx:if="{{noticeLastOne}}" class="notice">
+  <van-notice-bar
+    mode="link"
+    left-icon="volume-o"
+    text="{{noticeLastOne.title}}"
+    bind:click="goNotice"
+    data-id="{{noticeLastOne.id}}"
+  />
+</view>
