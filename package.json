@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "apifm-wxapi": "^3.65.0",
+    "mp-html": "^2.4.2",
     "vant-weapp": "^0.5.29"
   }
 }
